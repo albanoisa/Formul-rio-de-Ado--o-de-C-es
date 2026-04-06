@@ -1,0 +1,8 @@
+.titulo{
+    background-color: rgb(189, 9, 93);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
