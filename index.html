@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Formulário de Adoção </h2>
+
+    <form id="formAdocao"> 
+
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" placeholder="Digite seu nome"> 
+
+        <br> <br>
+
+        <label for="email"> Email: </label>
+        <input type="email" id="email" placeholder="Digite seu email">
+
+        <br> <br>
+
+        <label for="telefone"> Telefone: </label>
+        <input type="telefone" id="telefone" placeholder="Digite seu telefone">
+
+        <br> <br>
+
+        <label for="cpf"> CPF: </label>
+        <input type="cpf" id="CPF" placeholder="Digite seu CPF">
+
+        <br> <br>
+
+        <label for="idade"> Idade: </label>
+        <input type="idade" id="idade" placeholder="Digite sua idade">
+
+        <br> <br>
+
+        <label for="cidade"> Cidade: </label>
+        <input type="cidade" id="cidade" placeholder="Digite sua cidade">
+
+        <br> <br>
+
+        <label for="moradia"> Moradia: </label>
+        <select name="moradia" id="moradia"> 
+             <option value=""> Selecione </option>
+             <option value="Casa"> Casa </option>
+             <option value="Apartamento"> Apartamento </option>
+        </select>
+
+        <br> <br>
+
+        <label for="quintal"> Possui Quintal? </label>
+        <input type="radio" name="quintal" value="sim"> Sim
+        <input type="radio" name="quintal" value="não"> Não
+
+        <br> <BR>
+
+        <label for="pet"> Já teve pet antes? </label>
+        <input type="radio" name="pet" value="sim"> Sim
+        <input type="radio" name="pet" value="não"> Não
+
+        <br> <br>
+
+        <label for="animal"> Quantas horas o animal ficará sozinho por dia? </label> <br> <br>
+        <input type="radio" name="animal" value="1h a 2hs"> 1h a 2hs
+        <input type="radio" name="animal" value="3hs a 4hs"> 3hs a 4hs
+        <input type="radio" name="animal" value="5hs a 6hs"> 5hs a 6hs
+        <input type="radio" name="animal" value="7hs a 8hs"> 7hs a 8hs
+        <input type="radio" name="animal" value="9hs a 10hs"> 9hs a 10hs
+        <input type="radio" name="animal" value="11hs a 12hs"> 11hs a 12hs
+        <input type="radio" name="animal" value=" 12hs ou +"> 12hs ou +
+     
+        <br> <br>
+
+        <button type="submit"> Enviar </button>
+    </form>
+
+    <div id="resultado"> </div>
+
+    <script src="scripts/ong.js"> </script>
+
+</body>
+</html>
