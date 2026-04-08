@@ -55,22 +55,4 @@ header{
     display: inline-table;
 }
 
-.button{
-    align-items: center;
-}
 
-.centralizar{
-    text-align: center;
-}
-
-.red {
-    padding-right: 80px;
-    justify-content: center;
-    align-items: center;
-}
-
-.green {
-    padding-bottom: 80px;
-    justify-content: center;
-    align-items: center;
-}
