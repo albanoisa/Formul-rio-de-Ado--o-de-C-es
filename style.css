@@ -1,8 +1,41 @@
-.titulo{
-    background-color: rgb(189, 9, 93);
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(236, 193, 230, 0.829);
+}
+
+header{
+    font-size: 50px;
+    background-color: rgba(229, 158, 218, 0.829);
+     padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(194, 84, 194);
     color: rgb(255, 255, 255);
-    height: 80px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    display: inline-table;
+}
+
+.button{
+    align-items: center;
+}
+.imgcaramelo{
+    width: 40px;
+    height: 200px;
 }
