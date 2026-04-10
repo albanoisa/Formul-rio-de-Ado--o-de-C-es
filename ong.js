@@ -19,14 +19,14 @@ document.getElementById(formAdocao) .addEventListener("submit", function (e) {
         return alert("Informe se o quintal é seguro");
     }
 
-    if (moradia === "Apartamento") {
-        let permite = confirm("O local permite animais?");
-        if (!permite) return alert("Não é possível prosseguir sem permissão");
-    }
-
     if (moradia === "Casa" && quintal && quintal.value === "sim") {
         let seguro = confirm("O quintal é seguro?");
         if (!seguro) return alert("O quintal precisa ser seguro");
+    }
+
+    if (moradia === "Apartamento") {
+        let permite = confirm("O local permite animais?");
+        if (!permite) return alert("Não é possível prosseguir sem permissão");
     }
 
     if (animal === 0) return alert("Informe o tempo que o animal ficará sozinho");
